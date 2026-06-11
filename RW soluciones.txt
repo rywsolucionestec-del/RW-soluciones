@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&W Soluciones Tecnológicas S.A.S</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="R&W Soluciones Tecnológicas">
+        </div>
+
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <h1>Transformamos procesos, impulsamos resultados</h1>
+
+        <p>
+            Soluciones tecnológicas innovadoras para optimizar procesos,
+            mejorar la productividad y apoyar el crecimiento de nuestros clientes.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contacto" class="btn-primary">Contáctanos</a>
+
+            <a
+                href="https://wa.me/573123426900"
+                target="_blank"
+                class="btn-secondary">
+                WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="nosotros" class="section">
+    <div class="container">
+        <h2>Quiénes Somos</h2>
+
+        <p>
+            En R&W Soluciones Tecnológicas S.A.S. ayudamos a las empresas a
+            optimizar sus procesos mediante soluciones tecnológicas innovadoras
+            que mejoran la productividad, reducen tiempos operativos y fortalecen
+            el crecimiento organizacional.
+        </p>
+    </div>
+</section>
+
+<section id="servicios" class="section services">
+    <div class="container">
+
+        <h2>Nuestros Servicios</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Automatización de Procesos</h3>
+                <p>
+                    Implementamos soluciones que reducen tareas manuales y aumentan
+                    la eficiencia operativa.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Desarrollo de Software</h3>
+                <p>
+                    Creamos herramientas tecnológicas adaptadas a las necesidades
+                    de cada negocio.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Gestión y Control Operativo</h3>
+                <p>
+                    Monitoreo y control de operaciones para una mejor toma de decisiones.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Soporte Tecnológico</h3>
+                <p>
+                    Acompañamiento técnico y mantenimiento continuo.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section benefits">
+    <div class="container">
+        <h2>¿Por qué elegirnos?</h2>
+
+        <div class="benefits-grid">
+            <div>✓ Soluciones personalizadas</div>
+            <div>✓ Optimización de recursos</div>
+            <div>✓ Incremento de productividad</div>
+            <div>✓ Acompañamiento permanente</div>
+            <div>✓ Innovación tecnológica</div>
+            <div>✓ Enfoque en resultados</div>
+        </div>
+    </div>
+</section>
+
+<section class="section mission">
+    <div class="container">
+        <div class="mission-grid">
+
+            <div>
+                <h2>Misión</h2>
+                <p>
+                    Proporcionar soluciones tecnológicas innovadoras que impulsen
+                    la eficiencia, productividad y crecimiento sostenible de nuestros clientes.
+                </p>
+            </div>
+
+            <div>
+                <h2>Visión</h2>
+                <p>
+                    Ser una empresa líder en soluciones tecnológicas,
+                    reconocida por su innovación, calidad y compromiso
+                    con la transformación digital.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="section contact">
+    <div class="container">
+
+        <h2>Contáctanos</h2>
+
+        <div class="contact-info">
+
+            <div class="contact-card">
+                <h3>WhatsApp</h3>
+                <p>312 342 6900</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Correo</h3>
+                <p>comercial@rywsoluciones.com</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>
+        © 2026 R&W Soluciones Tecnológicas S.A.S.
+        Todos los derechos reservados.
+    </p>
+</footer>
+
+<a href="https://wa.me/573123426900"
+   class="whatsapp"
+   target="_blank">
+    💬
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
